@@ -1,6 +1,6 @@
-import { GoogleUser, Appointment, Client, Lead, Expense } from './types';
-import { Translations } from './i18n';
-import * as db from './data/mockDB';
+import { GoogleUser, Appointment, Client, Lead, Expense } from './types.ts';
+import { Translations } from './i18n.ts';
+import * as db from './data/mockDB.ts';
 
 
 // ---
