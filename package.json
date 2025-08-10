@@ -1,24 +1,14 @@
 {
   "name": "pet-tech-connect",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Plataforma web de vanguardia que combina servicios de cuidado de mascotas con funcionalidades avanzadas de inteligencia artificial.",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "live-server --port=3000"
   },
-  "dependencies": {
-    "@google/genai": "^1.13.0",
-    "react": "^19.1.1",
-    "react-router-dom": "^7.8.0",
-    "recharts": "^3.1.2",
-    "uuid": "^11.1.0",
-    "react-dom": "^19.1.1"
-  },
+  "author": "World-Class Senior Frontend Engineer",
+  "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "live-server": "^1.2.2"
   }
 }
