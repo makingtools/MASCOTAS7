@@ -110,6 +110,10 @@
   ]
 }
 </script>
+
+<!-- Babel for in-browser JSX/TSX transpilation -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
 <script type="importmap">
 {
   "imports": {
@@ -126,7 +130,8 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Application Entry Point (to be transpiled by Babel) -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
 </body>
 </html>
